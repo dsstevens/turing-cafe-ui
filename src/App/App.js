@@ -1,7 +1,11 @@
 import './App.css';
 import React from 'react';
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [reservations, setReservations] = useState([])
+
+
   return (
     <div className="App">
       <h1 className='app-title'>Turing Cafe Reservations</h1>
