@@ -1,0 +1,16 @@
+.rez-card {
+  background-color: white;
+  width: 10em;
+  height: 10em;
+  border-radius: 8px;
+  border: 4px solid teal;
+}
+
+.rez-card > ul {
+  list-style: none;
+  font-weight: 600;
+  color: teal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
